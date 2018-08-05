@@ -14,7 +14,9 @@ visitData <- facebookData$`window-activity-records` %>%
 #select just the parts we want
 analysisData <- visitData %>%
   select(dateString, value.open, value.active) %>%
-  mutate(dateString = ymd_hms(dateString)) %>%
+  mutate(dateString = ymd_hms(dateString)) %>% #parse dateString
+  mutate(time_of_day_seconds = interval(floor_date(dateString, "day"), dateString) %>% as.period() %>% period_to_seconds() %>% as.integer()) %>% #add time of day in seconds
+  mutate(time_of_day = interval(floor_date(dateString, "day"), dateString) %>% as.period()) %>% #add time of day in seconds
   mutate(duration = NA) #initialise duration to NA
 
 #calculate durations
@@ -68,5 +70,30 @@ time_per_day %>%
     coord_flip()
 
 # average duration per visit
-help("lubridate-package")
+analysisData %>%
+  filter(value.active == TRUE) %>%
+  summarise(total_duration = mean(duration))
 
+# average duration per visit, by day
+ave_time_per_day <- analysisData %>%
+  group_by(day = floor_date(dateString, "day")) %>%
+  filter(value.active == TRUE) %>%
+  summarise(total_duration = mean(duration))
+
+# histogram of time of day for visiting Facebook
+analysisData %>%
+  mutate(time_of_day = as_datetime(time_of_day)) %>%
+  filter(value.active == TRUE) %>%
+  ggplot() +
+    geom_histogram(aes(x = time_of_day)) +
+    scale_x_datetime(date_labels = "%H:%M", date_breaks = "3 hours")
+
+# time of visit, grouped by weekday
+analysisData %>%
+  mutate(time_of_day = as_datetime(time_of_day)) %>%
+  filter(value.active == TRUE) %>%
+  group_by(day = as_date(dateString) %>% wday(label = TRUE)) %>%
+  ggplot() +
+    geom_histogram(aes(x = time_of_day)) +
+    scale_x_datetime(date_labels = "%H:%M", date_breaks = "3 hours") +
+    facet_wrap(~day)
