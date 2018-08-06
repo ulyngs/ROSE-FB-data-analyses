@@ -16,8 +16,8 @@ analysisData <- visitData %>%
   select(dateString, value.open, value.active) %>%
   mutate(dateString = ymd_hms(dateString)) %>% #parse dateString
   mutate(time_of_day_seconds = interval(floor_date(dateString, "day"), dateString) %>% as.period() %>% period_to_seconds() %>% as.integer()) %>% #add time of day in seconds
-  mutate(time_of_day = interval(floor_date(dateString, "day"), dateString) %>% as.period()) %>% #add time of day in seconds
   mutate(duration = NA) #initialise duration to NA
+
 
 #calculate durations
 #do this in the stupid way with a for loop
@@ -37,7 +37,7 @@ total_visits <- analysisData %>%
 
 # number of visits per day
 visits_per_day <- analysisData %>%
-  group_by(day = floor_date(dateString, "day")) %>%
+  group_by(day = date(dateString)) %>%
   summarise(num_visits = n())
 
 visits_per_day %>%
@@ -57,7 +57,7 @@ analysisData %>%
 
 # time spent per day (seconds)
 time_per_day <- analysisData %>%
-  group_by(day = floor_date(dateString, "day")) %>%
+  group_by(day = date(dateString)) %>%
   filter(value.active == TRUE) %>%
   summarise(total_duration = sum(duration)) %>%
   mutate(period = seconds_to_period(total_duration) %>% round()) %>%
@@ -76,21 +76,22 @@ analysisData %>%
 
 # average duration per visit, by day
 ave_time_per_day <- analysisData %>%
-  group_by(day = floor_date(dateString, "day")) %>%
+  group_by(day = date(dateString)) %>%
   filter(value.active == TRUE) %>%
   summarise(total_duration = mean(duration))
 
 # histogram of time of day for visiting Facebook
 analysisData %>%
-  mutate(time_of_day = as_datetime(time_of_day)) %>%
+  mutate(time_of_day = as_datetime(time_of_day_seconds)) %>%
   filter(value.active == TRUE) %>%
   ggplot() +
     geom_histogram(aes(x = time_of_day)) +
     scale_x_datetime(date_labels = "%H:%M", date_breaks = "3 hours")
 
+
 # time of visit, grouped by weekday
 analysisData %>%
-  mutate(time_of_day = as_datetime(time_of_day)) %>%
+  mutate(time_of_day = as_datetime(time_of_day_seconds)) %>%
   filter(value.active == TRUE) %>%
   group_by(day = as_date(dateString) %>% wday(label = TRUE)) %>%
   ggplot() +
