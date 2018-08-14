@@ -6,8 +6,11 @@ library(lubridate)
 #read in raw data
 facebookData <- fromJSON("rose-data.json")
 
+View(facebookData)
+
+
 #get the window activity records
-visitData <- facebookData$`window-activity-records` %>%
+visitData <- facebookData[["window-activity-records"]] %>%
   flatten() %>%
   as_tibble()
 
