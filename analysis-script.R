@@ -6,9 +6,6 @@ library(lubridate)
 #read in raw data
 facebookData <- fromJSON("rose-data.json")
 
-View(facebookData)
-
-
 #get the window activity records
 visitData <- facebookData[["window-activity-records"]] %>%
   flatten() %>%
@@ -78,10 +75,17 @@ analysisData %>%
   summarise(total_duration = mean(duration))
 
 # average duration per visit, by day
-ave_time_per_day <- analysisData %>%
+ave_time_by_day <- analysisData %>%
   group_by(day = date(dateString)) %>%
   filter(value.active == TRUE) %>%
   summarise(total_duration = mean(duration))
+
+ave_time_by_day %>%
+  mutate(short_date = str_c(year(day), "/", month(day), "/", day(day))) %>%
+  ggplot(aes(x = short_date, y = total_duration)) +
+  geom_bar(stat = "identity") + 
+  labs(y = "Average duration per FB visit in seconds", x = "Date") +
+  coord_flip()
 
 # histogram of time of day for visiting Facebook
 analysisData %>%
@@ -89,8 +93,8 @@ analysisData %>%
   filter(value.active == TRUE) %>%
   ggplot() +
     geom_histogram(aes(x = time_of_day)) +
-    scale_x_datetime(date_labels = "%H:%M", date_breaks = "3 hours")
-
+    scale_x_datetime(date_labels = "%H:%M", date_breaks = "3 hours") +
+    labs(x = "Time of day", y = "Total number of visits")
 
 # time of visit, grouped by weekday
 analysisData %>%
@@ -101,3 +105,22 @@ analysisData %>%
     geom_histogram(aes(x = time_of_day)) +
     scale_x_datetime(date_labels = "%H:%M", date_breaks = "3 hours") +
     facet_wrap(~day)
+
+# show this as dot plot
+analysisData %>%
+  mutate(time_of_day = as_datetime(time_of_day_seconds)) %>%
+  filter(value.active == TRUE) %>%
+  group_by(day = as_date(dateString) %>% wday(label = TRUE)) %>%
+  ggplot() +
+  geom_point(aes(x = time_of_day, y = day))
+
+# show also end times
+analysisData %>%
+  mutate(time_of_day = as_datetime(time_of_day_seconds)) %>%
+  filter(value.active == TRUE) %>%
+  #filter(time_of_day < ymd_hms("1970-01-01 10:00:00")) %>%
+  #filter(time_of_day > ymd_hms("1970-01-01 09:30:00")) %>%
+  group_by(day = date(dateString)) %>%
+  ggplot() +
+    geom_point(aes(x = time_of_day, y = day), colour = "green") #+
+    #geom_point(aes(x = time_of_day + seconds(duration), y = day), colour = "red")
