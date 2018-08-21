@@ -175,6 +175,70 @@
             },
             "isPrivate": false,
             "createdAtString": "2018-08-02T16:46:13.024Z"
+        },
+        {
+            "createdAt": 1533659060586,
+            "origin": {
+                "observer": "view-profile",
+                "network": "facebook",
+                "version": "0.3",
+                "target": {
+                    "userId": "1cd6c"
+                }
+            },
+            "isPrivate": false,
+            "createdAtString": "2018-08-07T16:24:20.586Z"
+        },
+        {
+            "createdAt": 1534418143277,
+            "origin": {
+                "observer": "like-content",
+                "network": "facebook",
+                "version": "0.8",
+                "target": {
+                    "sharerId": "5fd58",
+                    "contentId": "2550f"
+                }
+            },
+            "isPrivate": false,
+            "createdAtString": "2018-08-16T11:15:43.277Z"
+        },
+        {
+            "createdAt": 1534594474960,
+            "origin": {
+                "observer": "like-content",
+                "network": "facebook",
+                "version": "0.8",
+                "target": {}
+            },
+            "isPrivate": false,
+            "createdAtString": "2018-08-18T12:14:34.960Z"
+        },
+        {
+            "createdAt": 1534594487090,
+            "origin": {
+                "observer": "view-profile",
+                "network": "facebook",
+                "version": "0.3",
+                "target": {
+                    "userId": "e7f45"
+                }
+            },
+            "isPrivate": false,
+            "createdAtString": "2018-08-18T12:14:47.090Z"
+        },
+        {
+            "createdAt": 1534594494326,
+            "origin": {
+                "observer": "view-profile",
+                "network": "facebook",
+                "version": "0.3",
+                "target": {
+                    "userId": "528c4"
+                }
+            },
+            "isPrivate": false,
+            "createdAtString": "2018-08-18T12:14:54.326Z"
         }
     ],
     "extract": [
@@ -219,6 +283,34 @@
                 "MessageFilter": "<div class=\"_nll\"><div>Who can see your friends list?</div></div><div class=\"_nlm fwb\">Friends</div>"
             },
             "createdAtString": "2018-08-02T15:08:07.913Z"
+        },
+        {
+            "createdAt": 1533806100572,
+            "origin": {
+                "extractor": "privacy-settings",
+                "network": "facebook",
+                "version": "0.2"
+            },
+            "fields": {
+                "viewFuturePosts": "<div class=\"_nll\">Who can see your future posts?</div><div class=\"_nlm fwb\">Friends</div>",
+                "sendFriendRequests": "<div class=\"_nll\">Who can send you friend requests?</div><div class=\"_nlm fwb\">Everyone</div>",
+                "MessageFilter": "<div class=\"_nll\"><div>Who can see your friends list?</div></div><div class=\"_nlm fwb\">Friends</div>"
+            },
+            "createdAtString": "2018-08-09T09:15:00.572Z"
+        },
+        {
+            "createdAt": 1534069525132,
+            "origin": {
+                "extractor": "privacy-settings",
+                "network": "facebook",
+                "version": "0.2"
+            },
+            "fields": {
+                "viewFuturePosts": "<div class=\"_nll\">Who can see your future posts?</div><div class=\"_nlm fwb\">Friends</div>",
+                "sendFriendRequests": "<div class=\"_nll\">Who can send you friend requests?</div><div class=\"_nlm fwb\">Everyone</div>",
+                "MessageFilter": "<div class=\"_nll\"><div>Who can see your friends list?</div></div><div class=\"_nlm fwb\">Friends</div>"
+            },
+            "createdAtString": "2018-08-12T10:25:25.132Z"
         }
     ],
     "diary-entry": [],
@@ -242,7 +334,7 @@
             "repositoryURL": "https://secure-software-engineering.github.io/rose/master/base.json",
             "updateInterval": 86400000,
             "fingerprint": "25E769C697EC2C20DA3BDDE9F188CF170FA234E8",
-            "lastChecked": 1533235137495,
+            "lastChecked": 1534244220995,
             "lastUpdated": null
         }
     ],
@@ -1394,6 +1486,405 @@
             "value": 3,
             "network": "facebook",
             "dateString": "2018-08-02T18:40:10.514Z"
+        },
+        {
+            "type": "click",
+            "date": 1533324398105,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-03T19:26:38.105Z"
+        },
+        {
+            "type": "click",
+            "date": 1533324458060,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-03T19:27:38.060Z"
+        },
+        {
+            "type": "click",
+            "date": 1533465770777,
+            "value": 11,
+            "network": "facebook",
+            "dateString": "2018-08-05T10:42:50.777Z"
+        },
+        {
+            "type": "click",
+            "date": 1533465830811,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-05T10:43:50.811Z"
+        },
+        {
+            "type": "click",
+            "date": 1533465950681,
+            "value": 4,
+            "network": "facebook",
+            "dateString": "2018-08-05T10:45:50.681Z"
+        },
+        {
+            "type": "click",
+            "date": 1533565503994,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-06T14:25:03.994Z"
+        },
+        {
+            "type": "click",
+            "date": 1533566509848,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-06T14:41:49.848Z"
+        },
+        {
+            "type": "click",
+            "date": 1533580950183,
+            "value": 3,
+            "network": "facebook",
+            "dateString": "2018-08-06T18:42:30.183Z"
+        },
+        {
+            "type": "click",
+            "date": 1533581190181,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-06T18:46:30.181Z"
+        },
+        {
+            "type": "click",
+            "date": 1533581250180,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-06T18:47:30.180Z"
+        },
+        {
+            "type": "click",
+            "date": 1533582117230,
+            "value": 4,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:01:57.230Z"
+        },
+        {
+            "type": "click",
+            "date": 1533582177229,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:02:57.229Z"
+        },
+        {
+            "type": "click",
+            "date": 1533583584399,
+            "value": 3,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:26:24.399Z"
+        },
+        {
+            "type": "click",
+            "date": 1533583885593,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:31:25.593Z"
+        },
+        {
+            "type": "click",
+            "date": 1533584005831,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:33:25.831Z"
+        },
+        {
+            "type": "click",
+            "date": 1533584115985,
+            "value": 8,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:35:15.985Z"
+        },
+        {
+            "type": "click",
+            "date": 1533659087445,
+            "value": 5,
+            "network": "facebook",
+            "dateString": "2018-08-07T16:24:47.445Z"
+        },
+        {
+            "type": "click",
+            "date": 1533659126942,
+            "value": 9,
+            "network": "facebook",
+            "dateString": "2018-08-07T16:25:26.942Z"
+        },
+        {
+            "type": "click",
+            "date": 1533659207444,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-07T16:26:47.444Z"
+        },
+        {
+            "type": "click",
+            "date": 1533806370704,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-09T09:19:30.704Z"
+        },
+        {
+            "type": "click",
+            "date": 1533806490658,
+            "value": 4,
+            "network": "facebook",
+            "dateString": "2018-08-09T09:21:30.658Z"
+        },
+        {
+            "type": "click",
+            "date": 1533851439551,
+            "value": 3,
+            "network": "facebook",
+            "dateString": "2018-08-09T21:50:39.551Z"
+        },
+        {
+            "type": "click",
+            "date": 1533851739547,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-09T21:55:39.547Z"
+        },
+        {
+            "type": "click",
+            "date": 1534017590629,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-11T19:59:50.629Z"
+        },
+        {
+            "type": "click",
+            "date": 1534018831011,
+            "value": 3,
+            "network": "facebook",
+            "dateString": "2018-08-11T20:20:31.011Z"
+        },
+        {
+            "type": "click",
+            "date": 1534168206847,
+            "value": 5,
+            "network": "facebook",
+            "dateString": "2018-08-13T13:50:06.847Z"
+        },
+        {
+            "type": "click",
+            "date": 1534168266828,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-13T13:51:06.828Z"
+        },
+        {
+            "type": "click",
+            "date": 1534168455050,
+            "value": 3,
+            "network": "facebook",
+            "dateString": "2018-08-13T13:54:15.050Z"
+        },
+        {
+            "type": "click",
+            "date": 1534193496217,
+            "value": 8,
+            "network": "facebook",
+            "dateString": "2018-08-13T20:51:36.217Z"
+        },
+        {
+            "type": "click",
+            "date": 1534193556313,
+            "value": 8,
+            "network": "facebook",
+            "dateString": "2018-08-13T20:52:36.313Z"
+        },
+        {
+            "type": "click",
+            "date": 1534418163641,
+            "value": 9,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:16:03.641Z"
+        },
+        {
+            "type": "click",
+            "date": 1534418223641,
+            "value": 4,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:17:03.641Z"
+        },
+        {
+            "type": "click",
+            "date": 1534418343640,
+            "value": 3,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:19:03.640Z"
+        },
+        {
+            "type": "click",
+            "date": 1534418403641,
+            "value": 6,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:20:03.641Z"
+        },
+        {
+            "type": "click",
+            "date": 1534418463640,
+            "value": 3,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:21:03.640Z"
+        },
+        {
+            "type": "click",
+            "date": 1534418523611,
+            "value": 6,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:22:03.611Z"
+        },
+        {
+            "type": "click",
+            "date": 1534418587095,
+            "value": 5,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:23:07.095Z"
+        },
+        {
+            "type": "click",
+            "date": 1534497514954,
+            "value": 4,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:18:34.954Z"
+        },
+        {
+            "type": "click",
+            "date": 1534497694955,
+            "value": 8,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:21:34.955Z"
+        },
+        {
+            "type": "click",
+            "date": 1534594515139,
+            "value": 5,
+            "network": "facebook",
+            "dateString": "2018-08-18T12:15:15.139Z"
+        },
+        {
+            "type": "click",
+            "date": 1534594578141,
+            "value": 9,
+            "network": "facebook",
+            "dateString": "2018-08-18T12:16:18.141Z"
+        },
+        {
+            "type": "click",
+            "date": 1534594638141,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-18T12:17:18.141Z"
+        },
+        {
+            "type": "click",
+            "date": 1534711816710,
+            "value": 4,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:50:16.710Z"
+        },
+        {
+            "type": "click",
+            "date": 1534711876788,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:51:16.788Z"
+        },
+        {
+            "type": "click",
+            "date": 1534711997999,
+            "value": 6,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:53:17.999Z"
+        },
+        {
+            "type": "click",
+            "date": 1534712063102,
+            "value": 3,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:54:23.102Z"
+        },
+        {
+            "type": "click",
+            "date": 1534712095267,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:54:55.267Z"
+        },
+        {
+            "type": "click",
+            "date": 1534712335282,
+            "value": 3,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:58:55.282Z"
+        },
+        {
+            "type": "click",
+            "date": 1534712395264,
+            "value": 4,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:59:55.264Z"
+        },
+        {
+            "type": "click",
+            "date": 1534712586948,
+            "value": 5,
+            "network": "facebook",
+            "dateString": "2018-08-19T21:03:06.948Z"
+        },
+        {
+            "type": "click",
+            "date": 1534754491702,
+            "value": 16,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:41:31.702Z"
+        },
+        {
+            "type": "click",
+            "date": 1534754551697,
+            "value": 4,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:42:31.697Z"
+        },
+        {
+            "type": "click",
+            "date": 1534754611699,
+            "value": 5,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:43:31.699Z"
+        },
+        {
+            "type": "click",
+            "date": 1534754671697,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:44:31.697Z"
+        },
+        {
+            "type": "click",
+            "date": 1534754731699,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:45:31.699Z"
+        },
+        {
+            "type": "click",
+            "date": 1534754851696,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:47:31.696Z"
+        },
+        {
+            "type": "click",
+            "date": 1534839589441,
+            "value": 8,
+            "network": "facebook",
+            "dateString": "2018-08-21T08:19:49.441Z"
         }
     ],
     "mousemove-activity-records": [
@@ -2922,6 +3413,545 @@
             "value": 7523,
             "network": "facebook",
             "dateString": "2018-08-02T18:40:10.515Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533324398107,
+            "value": 4556,
+            "network": "facebook",
+            "dateString": "2018-08-03T19:26:38.107Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533324458061,
+            "value": 1347,
+            "network": "facebook",
+            "dateString": "2018-08-03T19:27:38.061Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533465770779,
+            "value": 8109,
+            "network": "facebook",
+            "dateString": "2018-08-05T10:42:50.779Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533465830812,
+            "value": 903,
+            "network": "facebook",
+            "dateString": "2018-08-05T10:43:50.812Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533465890680,
+            "value": 129,
+            "network": "facebook",
+            "dateString": "2018-08-05T10:44:50.680Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533465950681,
+            "value": 2678,
+            "network": "facebook",
+            "dateString": "2018-08-05T10:45:50.681Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533565503996,
+            "value": 444,
+            "network": "facebook",
+            "dateString": "2018-08-06T14:25:03.996Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533566509849,
+            "value": 2980,
+            "network": "facebook",
+            "dateString": "2018-08-06T14:41:49.849Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533580950184,
+            "value": 3908,
+            "network": "facebook",
+            "dateString": "2018-08-06T18:42:30.184Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533581010183,
+            "value": 406,
+            "network": "facebook",
+            "dateString": "2018-08-06T18:43:30.183Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533581190182,
+            "value": 1389,
+            "network": "facebook",
+            "dateString": "2018-08-06T18:46:30.182Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533581250181,
+            "value": 1141,
+            "network": "facebook",
+            "dateString": "2018-08-06T18:47:30.181Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533582117231,
+            "value": 2985,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:01:57.231Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533582177230,
+            "value": 126,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:02:57.230Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533583584400,
+            "value": 1894,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:26:24.400Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533583825667,
+            "value": 177,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:30:25.667Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533583885594,
+            "value": 323,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:31:25.594Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533584005833,
+            "value": 586,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:33:25.833Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533584115987,
+            "value": 3607,
+            "network": "facebook",
+            "dateString": "2018-08-06T19:35:15.987Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533659087446,
+            "value": 5362,
+            "network": "facebook",
+            "dateString": "2018-08-07T16:24:47.446Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533659126943,
+            "value": 4771,
+            "network": "facebook",
+            "dateString": "2018-08-07T16:25:26.943Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533659207445,
+            "value": 1255,
+            "network": "facebook",
+            "dateString": "2018-08-07T16:26:47.445Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533806370705,
+            "value": 1893,
+            "network": "facebook",
+            "dateString": "2018-08-09T09:19:30.705Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533806490659,
+            "value": 5546,
+            "network": "facebook",
+            "dateString": "2018-08-09T09:21:30.659Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533806550659,
+            "value": 11637,
+            "network": "facebook",
+            "dateString": "2018-08-09T09:22:30.659Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533851439552,
+            "value": 1736,
+            "network": "facebook",
+            "dateString": "2018-08-09T21:50:39.552Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533851739548,
+            "value": 2308,
+            "network": "facebook",
+            "dateString": "2018-08-09T21:55:39.548Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1533851921407,
+            "value": 1414,
+            "network": "facebook",
+            "dateString": "2018-08-09T21:58:41.407Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534017590630,
+            "value": 1058,
+            "network": "facebook",
+            "dateString": "2018-08-11T19:59:50.630Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534017650775,
+            "value": 999,
+            "network": "facebook",
+            "dateString": "2018-08-11T20:00:50.775Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534017710623,
+            "value": 842,
+            "network": "facebook",
+            "dateString": "2018-08-11T20:01:50.623Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534018013222,
+            "value": 90,
+            "network": "facebook",
+            "dateString": "2018-08-11T20:06:53.222Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534018231013,
+            "value": 405,
+            "network": "facebook",
+            "dateString": "2018-08-11T20:10:31.013Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534018771013,
+            "value": 934,
+            "network": "facebook",
+            "dateString": "2018-08-11T20:19:31.013Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534018831010,
+            "value": 2363,
+            "network": "facebook",
+            "dateString": "2018-08-11T20:20:31.010Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534168206848,
+            "value": 4074,
+            "network": "facebook",
+            "dateString": "2018-08-13T13:50:06.848Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534168266829,
+            "value": 2345,
+            "network": "facebook",
+            "dateString": "2018-08-13T13:51:06.829Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534168394071,
+            "value": 766,
+            "network": "facebook",
+            "dateString": "2018-08-13T13:53:14.071Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534168455051,
+            "value": 6799,
+            "network": "facebook",
+            "dateString": "2018-08-13T13:54:15.051Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534193496218,
+            "value": 12234,
+            "network": "facebook",
+            "dateString": "2018-08-13T20:51:36.218Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534193556314,
+            "value": 6373,
+            "network": "facebook",
+            "dateString": "2018-08-13T20:52:36.314Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534193771082,
+            "value": 1278,
+            "network": "facebook",
+            "dateString": "2018-08-13T20:56:11.082Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534418163642,
+            "value": 13807,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:16:03.642Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534418223642,
+            "value": 35085,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:17:03.642Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534418283640,
+            "value": 333,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:18:03.640Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534418343642,
+            "value": 16067,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:19:03.642Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534418403643,
+            "value": 37652,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:20:03.643Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534418463643,
+            "value": 17202,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:21:03.643Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534418523613,
+            "value": 4833,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:22:03.613Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534418587097,
+            "value": 24684,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:23:07.097Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534418821124,
+            "value": 1072,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:27:01.124Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534419001258,
+            "value": 1784,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:30:01.258Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534497429877,
+            "value": 737,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:17:09.877Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534497514957,
+            "value": 9442,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:18:34.957Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534497574950,
+            "value": 283,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:19:34.950Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534497634953,
+            "value": 4369,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:20:34.953Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534497694957,
+            "value": 15580,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:21:34.957Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534594515141,
+            "value": 9518,
+            "network": "facebook",
+            "dateString": "2018-08-18T12:15:15.141Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534594578143,
+            "value": 9400,
+            "network": "facebook",
+            "dateString": "2018-08-18T12:16:18.143Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534594638142,
+            "value": 8330,
+            "network": "facebook",
+            "dateString": "2018-08-18T12:17:18.142Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534711816712,
+            "value": 9477,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:50:16.712Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534711876790,
+            "value": 2043,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:51:16.790Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534711998000,
+            "value": 13955,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:53:18.000Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534712026551,
+            "value": 607,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:53:46.551Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534712063106,
+            "value": 2190,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:54:23.106Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534712095269,
+            "value": 12113,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:54:55.269Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534712335283,
+            "value": 3208,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:58:55.283Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534712395265,
+            "value": 1643,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:59:55.265Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534712586950,
+            "value": 3354,
+            "network": "facebook",
+            "dateString": "2018-08-19T21:03:06.950Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534754491704,
+            "value": 11136,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:41:31.704Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534754551699,
+            "value": 9783,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:42:31.699Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534754611701,
+            "value": 32235,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:43:31.701Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534754671698,
+            "value": 5956,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:44:31.698Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534754731700,
+            "value": 8908,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:45:31.700Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534754791695,
+            "value": 7742,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:46:31.695Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534754851697,
+            "value": 13341,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:47:31.697Z"
+        },
+        {
+            "type": "mousemove",
+            "date": 1534839589444,
+            "value": 4582,
+            "network": "facebook",
+            "dateString": "2018-08-21T08:19:49.444Z"
         }
     ],
     "window-activity-records": [
@@ -8594,6 +9624,2046 @@
                 "network": "facebook"
             },
             "dateString": "2018-08-03T08:21:15.736Z"
+        },
+        {
+            "type": "window",
+            "date": 1533296347803,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T11:39:07.803Z"
+        },
+        {
+            "type": "window",
+            "date": 1533296375895,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T11:39:35.895Z"
+        },
+        {
+            "type": "window",
+            "date": 1533298495604,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T12:14:55.604Z"
+        },
+        {
+            "type": "window",
+            "date": 1533298513787,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T12:15:13.787Z"
+        },
+        {
+            "type": "window",
+            "date": 1533300874821,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T12:54:34.821Z"
+        },
+        {
+            "type": "window",
+            "date": 1533300879651,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T12:54:39.651Z"
+        },
+        {
+            "type": "window",
+            "date": 1533324339614,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T19:25:39.614Z"
+        },
+        {
+            "type": "window",
+            "date": 1533324398141,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T19:26:38.141Z"
+        },
+        {
+            "type": "window",
+            "date": 1533324405380,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T19:26:45.380Z"
+        },
+        {
+            "type": "window",
+            "date": 1533324409409,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T19:26:49.409Z"
+        },
+        {
+            "type": "window",
+            "date": 1533324891453,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-03T19:34:51.453Z"
+        },
+        {
+            "type": "window",
+            "date": 1533465710412,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T10:41:50.412Z"
+        },
+        {
+            "type": "window",
+            "date": 1533465751613,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T10:42:31.613Z"
+        },
+        {
+            "type": "window",
+            "date": 1533465760705,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T10:42:40.705Z"
+        },
+        {
+            "type": "window",
+            "date": 1533465763743,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T10:42:43.743Z"
+        },
+        {
+            "type": "window",
+            "date": 1533465829242,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T10:43:49.242Z"
+        },
+        {
+            "type": "window",
+            "date": 1533465832263,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T10:43:52.263Z"
+        },
+        {
+            "type": "window",
+            "date": 1533465940083,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T10:45:40.083Z"
+        },
+        {
+            "type": "window",
+            "date": 1533465950122,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T10:45:50.122Z"
+        },
+        {
+            "type": "window",
+            "date": 1533469602243,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T11:46:42.243Z"
+        },
+        {
+            "type": "window",
+            "date": 1533469604792,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T11:46:44.792Z"
+        },
+        {
+            "type": "window",
+            "date": 1533496545374,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T19:15:45.374Z"
+        },
+        {
+            "type": "window",
+            "date": 1533496618923,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T19:16:58.923Z"
+        },
+        {
+            "type": "window",
+            "date": 1533505330591,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T21:42:10.591Z"
+        },
+        {
+            "type": "window",
+            "date": 1533505332605,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-05T21:42:12.605Z"
+        },
+        {
+            "type": "window",
+            "date": 1533550015964,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T10:06:55.964Z"
+        },
+        {
+            "type": "window",
+            "date": 1533550021988,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T10:07:01.988Z"
+        },
+        {
+            "type": "window",
+            "date": 1533557876853,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T12:17:56.853Z"
+        },
+        {
+            "type": "window",
+            "date": 1533557882835,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T12:18:02.835Z"
+        },
+        {
+            "type": "window",
+            "date": 1533560041278,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T12:54:01.278Z"
+        },
+        {
+            "type": "window",
+            "date": 1533560054312,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T12:54:14.312Z"
+        },
+        {
+            "type": "window",
+            "date": 1533565430381,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T14:23:50.381Z"
+        },
+        {
+            "type": "window",
+            "date": 1533566565152,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T14:42:45.152Z"
+        },
+        {
+            "type": "window",
+            "date": 1533570141474,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "reddit"
+            },
+            "dateString": "2018-08-06T15:42:21.474Z"
+        },
+        {
+            "type": "window",
+            "date": 1533570144522,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "reddit"
+            },
+            "dateString": "2018-08-06T15:42:24.522Z"
+        },
+        {
+            "type": "window",
+            "date": 1533580882399,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T18:41:22.399Z"
+        },
+        {
+            "type": "window",
+            "date": 1533581326289,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T18:48:46.289Z"
+        },
+        {
+            "type": "window",
+            "date": 1533582034824,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T19:00:34.824Z"
+        },
+        {
+            "type": "window",
+            "date": 1533582367414,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T19:06:07.414Z"
+        },
+        {
+            "type": "window",
+            "date": 1533583524841,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T19:25:24.841Z"
+        },
+        {
+            "type": "window",
+            "date": 1533584027571,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T19:33:47.571Z"
+        },
+        {
+            "type": "window",
+            "date": 1533584057041,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T19:34:17.041Z"
+        },
+        {
+            "type": "window",
+            "date": 1533584159173,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-06T19:35:59.173Z"
+        },
+        {
+            "type": "window",
+            "date": 1533647649019,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-07T13:14:09.019Z"
+        },
+        {
+            "type": "window",
+            "date": 1533647660507,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-07T13:14:20.507Z"
+        },
+        {
+            "type": "window",
+            "date": 1533659020530,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-07T16:23:40.530Z"
+        },
+        {
+            "type": "window",
+            "date": 1533659219966,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-07T16:26:59.966Z"
+        },
+        {
+            "type": "window",
+            "date": 1533666667273,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-07T18:31:07.273Z"
+        },
+        {
+            "type": "window",
+            "date": 1533666671300,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-07T18:31:11.300Z"
+        },
+        {
+            "type": "window",
+            "date": 1533721692506,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-08T09:48:12.506Z"
+        },
+        {
+            "type": "window",
+            "date": 1533721703637,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-08T09:48:23.637Z"
+        },
+        {
+            "type": "window",
+            "date": 1533806285443,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T09:18:05.443Z"
+        },
+        {
+            "type": "window",
+            "date": 1533806288460,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T09:18:08.460Z"
+        },
+        {
+            "type": "window",
+            "date": 1533806308513,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T09:18:28.513Z"
+        },
+        {
+            "type": "window",
+            "date": 1533806329992,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T09:18:49.992Z"
+        },
+        {
+            "type": "window",
+            "date": 1533806467940,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T09:21:07.940Z"
+        },
+        {
+            "type": "window",
+            "date": 1533806602667,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T09:23:22.667Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846125677,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:22:05.677Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846147758,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:22:27.758Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846148771,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:22:28.771Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846150828,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:22:30.828Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846152916,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:22:32.916Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846155708,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:22:35.708Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846371171,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:26:11.171Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846374189,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:26:14.189Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846549039,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:29:09.039Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846555855,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:29:15.855Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846562887,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:29:22.887Z"
+        },
+        {
+            "type": "window",
+            "date": 1533846656518,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T20:30:56.518Z"
+        },
+        {
+            "type": "window",
+            "date": 1533851348314,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T21:49:08.314Z"
+        },
+        {
+            "type": "window",
+            "date": 1533851349332,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T21:49:09.332Z"
+        },
+        {
+            "type": "window",
+            "date": 1533851369415,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T21:49:29.415Z"
+        },
+        {
+            "type": "window",
+            "date": 1533851911663,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T21:58:31.663Z"
+        },
+        {
+            "type": "window",
+            "date": 1533852015043,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T22:00:15.043Z"
+        },
+        {
+            "type": "window",
+            "date": 1533852018021,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-09T22:00:18.021Z"
+        },
+        {
+            "type": "window",
+            "date": 1533895672773,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-10T10:07:52.773Z"
+        },
+        {
+            "type": "window",
+            "date": 1533895696826,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-10T10:08:16.826Z"
+        },
+        {
+            "type": "window",
+            "date": 1533895714413,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-10T10:08:34.413Z"
+        },
+        {
+            "type": "window",
+            "date": 1533895717072,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-10T10:08:37.072Z"
+        },
+        {
+            "type": "window",
+            "date": 1533996546113,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T14:09:06.113Z"
+        },
+        {
+            "type": "window",
+            "date": 1533996580178,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T14:09:40.178Z"
+        },
+        {
+            "type": "window",
+            "date": 1533996581201,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T14:09:41.201Z"
+        },
+        {
+            "type": "window",
+            "date": 1533996582161,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T14:09:42.161Z"
+        },
+        {
+            "type": "window",
+            "date": 1534001908195,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T15:38:28.195Z"
+        },
+        {
+            "type": "window",
+            "date": 1534005738279,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T16:42:18.279Z"
+        },
+        {
+            "type": "window",
+            "date": 1534005746458,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T16:42:26.458Z"
+        },
+        {
+            "type": "window",
+            "date": 1534016576284,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T19:42:56.284Z"
+        },
+        {
+            "type": "window",
+            "date": 1534016610358,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T19:43:30.358Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017530092,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T19:58:50.092Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017531776,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T19:58:51.776Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017535870,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T19:58:55.870Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017541901,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T19:59:01.901Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017602265,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:00:02.265Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017613544,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:00:13.544Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017633589,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:00:33.589Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017661706,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:01:01.706Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017666726,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:01:06.726Z"
+        },
+        {
+            "type": "window",
+            "date": 1534017699101,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:01:39.101Z"
+        },
+        {
+            "type": "window",
+            "date": 1534018228415,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:10:28.415Z"
+        },
+        {
+            "type": "window",
+            "date": 1534018258484,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:10:58.484Z"
+        },
+        {
+            "type": "window",
+            "date": 1534018730371,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:18:50.371Z"
+        },
+        {
+            "type": "window",
+            "date": 1534018732428,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:18:52.428Z"
+        },
+        {
+            "type": "window",
+            "date": 1534018734610,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:18:54.610Z"
+        },
+        {
+            "type": "window",
+            "date": 1534018735619,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:18:55.619Z"
+        },
+        {
+            "type": "window",
+            "date": 1534018788756,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:19:48.756Z"
+        },
+        {
+            "type": "window",
+            "date": 1534018793781,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-11T20:19:53.781Z"
+        },
+        {
+            "type": "window",
+            "date": 1534062287590,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T08:24:47.590Z"
+        },
+        {
+            "type": "window",
+            "date": 1534062323438,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T08:25:23.438Z"
+        },
+        {
+            "type": "window",
+            "date": 1534070998199,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T10:49:58.199Z"
+        },
+        {
+            "type": "window",
+            "date": 1534077433056,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T12:37:13.056Z"
+        },
+        {
+            "type": "window",
+            "date": 1534077443195,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T12:37:23.195Z"
+        },
+        {
+            "type": "window",
+            "date": 1534093051903,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T16:57:31.903Z"
+        },
+        {
+            "type": "window",
+            "date": 1534093062935,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T16:57:42.935Z"
+        },
+        {
+            "type": "window",
+            "date": 1534093076973,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T16:57:56.973Z"
+        },
+        {
+            "type": "window",
+            "date": 1534093078035,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T16:57:58.035Z"
+        },
+        {
+            "type": "window",
+            "date": 1534097129645,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T18:05:29.645Z"
+        },
+        {
+            "type": "window",
+            "date": 1534103759223,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T19:55:59.223Z"
+        },
+        {
+            "type": "window",
+            "date": 1534103767253,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T19:56:07.253Z"
+        },
+        {
+            "type": "window",
+            "date": 1534103909466,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T19:58:29.466Z"
+        },
+        {
+            "type": "window",
+            "date": 1534103910478,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-12T19:58:30.478Z"
+        },
+        {
+            "type": "window",
+            "date": 1534168131026,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T13:48:51.026Z"
+        },
+        {
+            "type": "window",
+            "date": 1534168188156,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T13:49:48.156Z"
+        },
+        {
+            "type": "window",
+            "date": 1534168209039,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T13:50:09.039Z"
+        },
+        {
+            "type": "window",
+            "date": 1534168437814,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T13:53:57.814Z"
+        },
+        {
+            "type": "window",
+            "date": 1534168438987,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T13:53:58.987Z"
+        },
+        {
+            "type": "window",
+            "date": 1534168454124,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T13:54:14.124Z"
+        },
+        {
+            "type": "window",
+            "date": 1534168486233,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T13:54:46.233Z"
+        },
+        {
+            "type": "window",
+            "date": 1534168492335,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T13:54:52.335Z"
+        },
+        {
+            "type": "window",
+            "date": 1534193421167,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T20:50:21.167Z"
+        },
+        {
+            "type": "window",
+            "date": 1534193740805,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-13T20:55:40.805Z"
+        },
+        {
+            "type": "window",
+            "date": 1534227973929,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-14T06:26:13.929Z"
+        },
+        {
+            "type": "window",
+            "date": 1534227977085,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-14T06:26:17.085Z"
+        },
+        {
+            "type": "window",
+            "date": 1534342037316,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-15T14:07:17.316Z"
+        },
+        {
+            "type": "window",
+            "date": 1534342039337,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-15T14:07:19.337Z"
+        },
+        {
+            "type": "window",
+            "date": 1534342175697,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-15T14:09:35.697Z"
+        },
+        {
+            "type": "window",
+            "date": 1534342179719,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-15T14:09:39.719Z"
+        },
+        {
+            "type": "window",
+            "date": 1534414388258,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T10:13:08.258Z"
+        },
+        {
+            "type": "window",
+            "date": 1534414391287,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T10:13:11.287Z"
+        },
+        {
+            "type": "window",
+            "date": 1534414412358,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T10:13:32.358Z"
+        },
+        {
+            "type": "window",
+            "date": 1534414417381,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T10:13:37.381Z"
+        },
+        {
+            "type": "window",
+            "date": 1534414422415,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T10:13:42.415Z"
+        },
+        {
+            "type": "window",
+            "date": 1534414425612,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T10:13:45.612Z"
+        },
+        {
+            "type": "window",
+            "date": 1534417952358,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:12:32.358Z"
+        },
+        {
+            "type": "window",
+            "date": 1534417957383,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:12:37.383Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418000721,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:13:20.721Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418064162,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:14:24.162Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418076282,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:14:36.282Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418545551,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:22:25.551Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418599650,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:23:19.650Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418600746,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:23:20.746Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418762060,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:26:02.060Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418764194,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:26:04.194Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418943555,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:29:03.555Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418945570,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:29:05.570Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418976750,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:29:36.750Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418978803,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:29:38.803Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418979815,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:29:39.815Z"
+        },
+        {
+            "type": "window",
+            "date": 1534418980920,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-16T11:29:40.920Z"
+        },
+        {
+            "type": "window",
+            "date": 1534497429328,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-17T09:17:09.328Z"
+        },
+        {
+            "type": "window",
+            "date": 1534497431384,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-17T09:17:11.384Z"
+        },
+        {
+            "type": "window",
+            "date": 1534497452426,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-17T09:17:32.426Z"
+        },
+        {
+            "type": "window",
+            "date": 1534497747261,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-17T09:22:27.261Z"
+        },
+        {
+            "type": "window",
+            "date": 1534594405690,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-18T12:13:25.690Z"
+        },
+        {
+            "type": "window",
+            "date": 1534594408710,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-18T12:13:28.710Z"
+        },
+        {
+            "type": "window",
+            "date": 1534594430792,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-18T12:13:50.792Z"
+        },
+        {
+            "type": "window",
+            "date": 1534594536032,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-18T12:15:36.032Z"
+        },
+        {
+            "type": "window",
+            "date": 1534594539452,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-18T12:15:39.452Z"
+        },
+        {
+            "type": "window",
+            "date": 1534594644631,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-18T12:17:24.631Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711680091,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:48:00.091Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711695863,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:48:15.863Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711716066,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:48:36.066Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711717092,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:48:37.092Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711755161,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:49:15.161Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711832565,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:50:32.565Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711873415,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:51:13.415Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711876797,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:51:16.797Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711940012,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:52:20.012Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711942027,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:52:22.027Z"
+        },
+        {
+            "type": "window",
+            "date": 1534711948051,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:52:28.051Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712008279,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:53:28.279Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712009041,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:53:29.041Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712014629,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:53:34.629Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712016646,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:53:36.646Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712019709,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:53:39.709Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712033807,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T20:53:53.807Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712506006,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T21:01:46.006Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712510151,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T21:01:50.151Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712512188,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T21:01:52.188Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712526239,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T21:02:06.239Z"
+        },
+        {
+            "type": "window",
+            "date": 1534712634250,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-19T21:03:54.250Z"
+        },
+        {
+            "type": "window",
+            "date": 1534754341570,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T08:39:01.570Z"
+        },
+        {
+            "type": "window",
+            "date": 1534754344595,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T08:39:04.595Z"
+        },
+        {
+            "type": "window",
+            "date": 1534754429985,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T08:40:29.985Z"
+        },
+        {
+            "type": "window",
+            "date": 1534754794924,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T08:46:34.924Z"
+        },
+        {
+            "type": "window",
+            "date": 1534754795997,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T08:46:35.997Z"
+        },
+        {
+            "type": "window",
+            "date": 1534754869250,
+            "value": {
+                "open": true,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T08:47:49.250Z"
+        },
+        {
+            "type": "window",
+            "date": 1534754895520,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T08:48:15.520Z"
+        },
+        {
+            "type": "window",
+            "date": 1534754897212,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T08:48:17.212Z"
+        },
+        {
+            "type": "window",
+            "date": 1534791962083,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T19:06:02.083Z"
+        },
+        {
+            "type": "window",
+            "date": 1534791990941,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-20T19:06:30.941Z"
+        },
+        {
+            "type": "window",
+            "date": 1534839505187,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-21T08:18:25.187Z"
+        },
+        {
+            "type": "window",
+            "date": 1534839507206,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-21T08:18:27.206Z"
+        },
+        {
+            "type": "window",
+            "date": 1534839528260,
+            "value": {
+                "open": true,
+                "active": true,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-21T08:18:48.260Z"
+        },
+        {
+            "type": "window",
+            "date": 1534839799059,
+            "value": {
+                "open": false,
+                "active": false,
+                "network": "facebook"
+            },
+            "dateString": "2018-08-21T08:23:19.059Z"
         }
     ],
     "scroll-activity-records": [
@@ -8890,6 +11960,251 @@
             "value": 624,
             "network": "facebook",
             "dateString": "2018-08-02T16:45:37.713Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1533324398184,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-03T19:26:38.184Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1533659126945,
+            "value": 1562,
+            "network": "facebook",
+            "dateString": "2018-08-07T16:25:26.945Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1533806370706,
+            "value": 555,
+            "network": "facebook",
+            "dateString": "2018-08-09T09:19:30.706Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1533806550660,
+            "value": 6421,
+            "network": "facebook",
+            "dateString": "2018-08-09T09:22:30.660Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534193496219,
+            "value": 1826,
+            "network": "facebook",
+            "dateString": "2018-08-13T20:51:36.219Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534193556315,
+            "value": 1410,
+            "network": "facebook",
+            "dateString": "2018-08-13T20:52:36.315Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534418163643,
+            "value": 9078,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:16:03.643Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534418223643,
+            "value": 22060,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:17:03.643Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534418283641,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:18:03.641Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534418343643,
+            "value": 11293,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:19:03.643Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534418403645,
+            "value": 32112,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:20:03.645Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534418463646,
+            "value": 11501,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:21:03.646Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534418523615,
+            "value": 22,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:22:03.615Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534418587099,
+            "value": 18670,
+            "network": "facebook",
+            "dateString": "2018-08-16T11:23:07.099Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534497514959,
+            "value": 5924,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:18:34.959Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534497574951,
+            "value": 8,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:19:34.951Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534497634956,
+            "value": 3671,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:20:34.956Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534497694959,
+            "value": 11167,
+            "network": "facebook",
+            "dateString": "2018-08-17T09:21:34.959Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534594515143,
+            "value": 2970,
+            "network": "facebook",
+            "dateString": "2018-08-18T12:15:15.143Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534594578145,
+            "value": 5380,
+            "network": "facebook",
+            "dateString": "2018-08-18T12:16:18.145Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534594638143,
+            "value": 1,
+            "network": "facebook",
+            "dateString": "2018-08-18T12:17:18.143Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534711816712,
+            "value": 4295,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:50:16.712Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534711998004,
+            "value": 9307,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:53:18.004Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534712063107,
+            "value": 672,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:54:23.107Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534712095271,
+            "value": 8228,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:54:55.271Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534712335283,
+            "value": 32,
+            "network": "facebook",
+            "dateString": "2018-08-19T20:58:55.283Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534712586952,
+            "value": 2,
+            "network": "facebook",
+            "dateString": "2018-08-19T21:03:06.952Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534754491706,
+            "value": 3978,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:41:31.706Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534754551701,
+            "value": 5130,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:42:31.701Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534754611702,
+            "value": 21318,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:43:31.702Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534754671700,
+            "value": 4361,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:44:31.700Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534754731702,
+            "value": 7332,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:45:31.702Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534754791701,
+            "value": 7306,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:46:31.701Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534754851699,
+            "value": 7789,
+            "network": "facebook",
+            "dateString": "2018-08-20T08:47:31.699Z"
+        },
+        {
+            "type": "scroll",
+            "date": 1534839589446,
+            "value": 756,
+            "network": "facebook",
+            "dateString": "2018-08-21T08:19:49.446Z"
         }
     ],
     "fb-login-activity-records": [
@@ -8904,5 +12219,5 @@
     "install-date": null,
     "rose-data-version": null,
     "rose-version": null,
-    "export-date": 1533287693222
+    "export-date": 1534842992219
 }
